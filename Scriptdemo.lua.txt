@@ -30,10 +30,15 @@ loadstring(game:HttpGet(("https://raw.githubusercontent.com/daucobonhi/Ui-Redz-V
       })
       
 ------ Tab
-     local Tab1o = MakeTab({Name = "Script main no key"})
-      local Tab2o = MakeTab({Name = "Script Kaitun"})  
-     local Tab3o = MakeTab({Name = "Script hop sever "}) 
-     local Tab4o = MakeTab({Name = "Script tự động gạt cần "}) 
+     local Tab1o = MakeTab({Name = "Script bloxfruit  main no key"})
+      local Tab2o = MakeTab({Name = "Script bloxfruit  Kaitun"})  
+     local Tab3o = MakeTab({Name = "Script bloxfruit  hop sever "}) 
+     local Tab4o = MakeTab({Name = "Script bloxfruit  tự động gạt cần "}) 
+     local Tab5o = MakeTab({Name = "Script bloxfruit  auto bounty "})
+     local Tab6o = MakeTab({Name = "Script bloxfruit trade scam "})
+     local Tab7o = MakeTab({Name = "Script dead rails "})
+     local Tab8o = MakeTab({Name = "Script blue lock rivals "})
+     local Tab9o = MakeTab({Name = "Script grow a garden "})
 ------- BUTTON
     
     AddButton(Tab1o, {
@@ -165,3 +170,189 @@ repeat task.wait() pcall(function() loadstring(game:HttpGet("https://raw.githubu
 loadstring(game:HttpGet("https://raw.githubusercontent.com/Teddyseetink/Haidepzai/refs/heads/main/TEDDYHUB-AUTOPULLLever"))()
   end
   })      
+
+ AddButton(Tab2o, {
+     Name = "Hiru kaitun",
+    Callback = function()_G.Quest = {
+    ['RGB Aura Haki'] = true,
+    ['Pull Lever'] = true,
+    ['Quest Dough Awaken'] = true
+}
+_G.Race = {
+    ['Select Race'] = {'Human','Fishman','Skypiea','Mink'},
+    ['Lock Race'] = true,
+    ['Evo Race V3'] = true
+}
+_G.Melee = {
+    ['Godhuman'] = true
+}
+_G.Sword = {
+    ['Saber'] = true,
+    ['Midnight Blade'] = true,
+    ['Shisui'] = true,
+    ['Saddi'] = true,
+    ['Wando'] = true,
+    ['Yama'] = true,
+    ['Koko'] = false,
+    ['Rengoku'] = true,
+    ['Canvander'] = true,
+    ['Buddy Sword'] = true,
+    ['Twin Hooks'] = true,
+    ['SpikeyTrident'] = true,
+    ['Hallow Scryte'] = true,
+    ['Dark Dagger'] = true,
+    ['Tushita'] = true,
+    ['True Triple Katana'] = true,
+    ['Cursed Dual Katana'] = true,
+    ['Shark Anchor'] = true
+}
+_G.Gun = {
+    ['Kabucha'] = true,
+    ['Acidum Rifle'] = true,
+    ['Soul Guitar'] = true,
+    ['Serpent Bow'] = true
+}
+_G.Fruit = {
+    ['Main Fruit'] = {'Kitsune-Kitsune','T-Rex-T-Rex','Mammoth-Mammoth'},
+    ['Select Fruit'] = {'Dark-Dark','Magma-Magma'}
+}
+_G.Mastery = {
+    ['Melee'] = true,
+    ['Sword'] = true,
+    ['Fruit'] = true
+}
+_G.Setting = {
+    ['FPS Booster'] = true,
+    ['Auto Close Ui'] = false
+}
+loadstring(game:HttpGet("https://raw.githubusercontent.com/NGUYENVUDUY1/Super/refs/heads/main/Kaitun.lua"))()
+  end
+  })
+
+AddButton(Tab5o, {
+     Name = "Lion hub",
+    Callback = function()
+repeat wait() until game:IsLoaded() and game.Players.LocalPlayer
+getgenv().Team = "Pirates"
+getgenv().Config = {
+["Safe Health"] = {50},
+["Custom Y Run"] = {
+Enabled = true,
+["Y Run"] = 5000
+},
+["Hunt Method"] = {
+["Use Move Predict"] = false,
+["Hit and Run"] = false,
+["Aimbot"] = true,
+["ESP Player"] = true,
+["Max Attack Time"] = 60
+},
+["Shop"] = {
+["Random Fruit"] = false,
+["Store Fruit"] = true,
+["Zoro Sword"] = false
+},
+["Setting"] = {
+["World"] = 3,
+["White Screen"] = false,
+["Url"] = "Your_Webhook_Url"
+},
+["Skip"] = {
+["Avoid V4"] = false
+},
+["Spam All Skill On V4"] = {
+Enabled = true,
+["Weapons"] = {"Melee", "Sword", "Gun", "Blox Fruit"}
+},
+Items = {
+Use = {"Melee", "Sword"},
+Melee = {
+Enable = true,
+Delay = 0.6,
+Skills = {
+Z = {Enable = true, HoldTime = 0.3},
+X = {Enable = true, HoldTime = 0.2},
+C = {Enable = true, HoldTime = 0.5}
+}
+},
+Sword = {
+Enable = true,
+Delay = 0.5,
+Skills = {
+Z = {Enable = true, HoldTime = 1},
+X = {Enable = true, HoldTime = 0.2},
+}
+},
+Gun = {
+Enable = false,
+Delay = 0.05,
+Skills = {
+Z = {Enable = true, HoldTime = 0.05},
+X = {Enable = true, HoldTime = 0.05}
+}
+},
+["Blox Fruit"] = {
+Enable = false,
+Delay = 0.05,
+Skills = {
+Z = {Enable = true, HoldTime = 0.05},
+X = {Enable = true, HoldTime = 0.05},
+C = {Enable = true, HoldTime = 0.05},
+V = {Enable = true, HoldTime = 0.05},
+F = {Enable = true, HoldTime = 0.05}
+}
+}
+}
+}
+loadstring(game:HttpGet("https://api.luarmor.net/files/v3/loaders/10f7f97cebba24a87808c36ebd345a97.lua"))()
+  end
+  })
+
+ AddButton(Tab5o, {
+     Name = "Redz Hub",
+    Callback = function()
+     local Settings = {
+    JoinTeam = "Pirates"; -- Pirates / Marines
+    Translator = true;   -- true / false
+}
+
+loadstring(game:HttpGet("https://raw.githubusercontent.com/tlredz/Scripts/refs/heads/main/main.luau"))(Settings)
+  end
+  })
+
+ AddButton(Tab6o, {
+     Name = "Trade scam",
+    Callback = function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/Nextro-Hub/FreezeTrade/refs/heads/main/Bloxfruits"))()
+  end
+  })
+
+ AddButton(Tab7o, {
+     Name = "auto farm bone",
+    Callback = function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/invertedth/Autobonds/refs/heads/main/Autobondscirpt.lua"))()
+  end
+  })
+
+AddButton(Tab7o, {
+     Name = "script blue lock no key",
+    Callback = function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/IAmJamal10/Scripts/refs/heads/main/BlueLock"))()
+  end
+  })
+
+AddButton(Tab9o, {
+     Name = "script grow a garden Vxeze",
+    Callback = function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/Dex-Bear/Vxezehub/refs/heads/main/VxezeHubMain"))()
+  end
+  })
+
+AddButton(Tab9o, {
+     Name = "script grow a garden Vxeze",
+    Callback = function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/gumanba/Scripts/refs/heads/main/GrowaGarden", true))()
+  end
+  }
+
+
