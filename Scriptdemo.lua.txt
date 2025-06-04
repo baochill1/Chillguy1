@@ -349,7 +349,7 @@ AddButton(Tab9o, {
   })
 
 AddButton(Tab9o, {
-     Name = "script grow a garden Vxeze",
+     Name = "script grow a garden ",
     Callback = function()
     loadstring(game:HttpGet("https://raw.githubusercontent.com/gumanba/Scripts/refs/heads/main/GrowaGarden", true))()
   end
