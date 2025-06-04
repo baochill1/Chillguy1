@@ -1,0 +1,167 @@
+loadstring(game:HttpGet(("https://raw.githubusercontent.com/daucobonhi/Ui-Redz-V2/refs/heads/main/UiREDzV2.lua")))()
+
+       local Window = MakeWindow({
+         Hub = {
+         Title = "Chillguy hub",
+         Animation = "Chill guy"
+         },
+        Key = {
+        KeySystem = false,
+        Title = "Key System",
+        Description = "",
+        KeyLink = "",
+        Keys = {"1234"},
+        Notifi = {
+        Notifications = true,
+        CorrectKey = "Running the Script...",
+       Incorrectkey = "The key is incorrect",
+       CopyKeyLink = "Copied to Clipboard"
+      }
+    }
+  })
+
+       MinimizeButton({
+       Image = "http://www.roblox.com/asset/?id=109606089633506",
+       Size = {60, 60},
+       Color = Color3.fromRGB(10, 10, 10),
+       Corner = true,
+       Stroke = false,
+       StrokeColor = Color3.fromRGB(255, 0, 0)
+      })
+      
+------ Tab
+     local Tab1o = MakeTab({Name = "Script main no key"})
+      local Tab2o = MakeTab({Name = "Script Kaitun"})  
+     local Tab3o = MakeTab({Name = "Script hop sever "}) 
+     local Tab4o = MakeTab({Name = "Script tự động gạt cần "}) 
+------- BUTTON
+    
+    AddButton(Tab1o, {
+     Name = "Redz Hub",
+    Callback = function()
+	  local Settings = {
+  JoinTeam = "Pirates"; -- Pirates/Marines
+  Translator = true; -- true/false
+}
+
+loadstring(game:HttpGet("https://raw.githubusercontent.com/realredz/BloxFruits/refs/heads/main/Source.lua"))(Settings)
+  end
+  })
+  
+      AddButton(Tab1o, {
+     Name = "Banana hub free",
+    Callback = function()
+	  loadstring(game:HttpGet("https://raw.githubusercontent.com/kimprobloxdz/Banana-Free/refs/heads/main/Protected_5609200582002947.lua.txt"))()
+  end
+  })
+  
+        AddButton(Tab1o, {
+     Name = "Lion hub",
+    Callback = function()
+	repeat wait() until game:IsLoaded() and game.Players.LocalPlayer
+getgenv().team = "Pirates" -- Marines
+loadstring(game:HttpGet("https://api.luarmor.net/files/v3/loaders/e0c7fcf6c077fc23475cf4ce4db58e42.lua"))()
+  end
+  })
+  
+          AddButton(Tab1o, {
+     Name = "Tsuo hub",
+    Callback = function()
+  loadstring(game:HttpGet("https://raw.githubusercontent.com/Tsuo7/TsuoHub/main/Tsuoscripts"))()
+  end
+  })
+  
+          AddButton(Tab1o, {
+     Name = "Vxeze hub",
+    Callback = function()
+	loadstring(game:HttpGet("https://raw.githubusercontent.com/Dex-Bear/Vxezehub/refs/heads/main/Skidlamcho.txt"))()
+  end
+  })
+  
+          AddButton(Tab1o, {
+     Name = "Blue X hub",
+    Callback = function()
+  loadstring(game:HttpGet("https://raw.githubusercontent.com/Dev-BlueX/BlueX-Hub/refs/heads/main/Main.lua"))()
+  end
+  })
+  
+          AddButton(Tab2o, {
+     Name = "Mukuro kaitun",
+    Callback = function()
+  getgenv().Mode = "OneClick"
+getgenv().Setting = {
+    ["Team"] = "Pirates", -- Options "Pirates", "Marines"
+    ["FucusOnLevel"] = true,
+    ["Fruits"] = {  -- setting for fruits u want
+        ["Primary"] = { -- if current fruit is not in this list, eat/buy
+            "Dough-Dough",
+            "Dragon-Dragon",
+            "Buddha-Buddha",
+            -- u can configs add mores/remove and must end with , (comma symbol)
+        },
+        ["Normal"] = { -- it just a normal fruit list
+            "Flame-Flame",
+            "Light-Light",
+            "Magma-Magma",
+            -- u can configs add mores/remove and must end with , (comma symbol)
+        }
+        -- run this for get all fruit name `local t={};for _,v in pairs(game.ReplicatedStorage.Remotes.CommF_:InvokeServer("GetFruits"))do table.insert(t,`"{v.Name}"`)end;setclipboard(table.concat(t, "\n"))`
+    },
+    ["IdleCheck"] = 150, -- every (x) seconds if not moving rejoin
+};
+loadstring(game:HttpGet("https://raw.githubusercontent.com/xQuartyx/QuartyzScript/main/Loader.lua"))()
+  end
+  })
+  
+          AddButton(Tab2o, {
+     Name = "Xero kaitun",
+    Callback = function()
+	script_key = "" -- premium only, u can leave it blank if ur not
+getgenv().Shutdown = false -- Turn on if u are farming bulk accounts
+getgenv().Configs = {
+    ["Team"] = "Marines",
+    ["Gun Farm"] = false, -- Fast farm level, but farming melee is slow
+    ["FPS Boost"] = {
+        ["Enable"] = false,
+        ["FPS Cap"] = 30,
+    },
+    ["Farm Boss Drops"] = {
+        ["Enable"] = false,
+        ["When x2 Exp Expired"] = false
+    },
+    ["Hop"] = {
+        ["Enable"] = true,
+        ["Hop Find Tushita"] = true
+    },
+    ["Auto Collect Berry"] = false,
+    ["Auto Evo Race"] = true,
+    ["Awaken Fruit"] = true,
+    ["Rainbow Haki"] = false,
+    ["Hop Player Near"] = true,
+    ["Skull Guitar"] = true,
+    ["Find Fruit"] = false, -- Will find 1m+ fruit to unlock swan door to access third sea
+    ["Cursed Dual Katana"] = true,
+    ["Switch Melee"] = true,
+    ["Eat Fruit"] = "", -- leave blank for none, put the fruit name like this example: Smoke Fruit, T-Rex Fruit, ...
+    ["Snipe Fruit"] = "", -- leave blank for none, put the fruit name like this example: Smoke Fruit, T-Rex Fruit, ...
+    ["Lock Fragment"] = 0,
+    ["Buy Stuffs"] = true -- buso, geppo, soru, ...
+}
+repeat task.wait() pcall(function() loadstring(game:HttpGet("https://raw.githubusercontent.com/Xero2409/XeroHub/refs/heads/main/kaitun.lua"))() end) until getgenv().Check_Execute
+  end
+  })
+   
+           AddButton(Tab3o, {
+     Name = "Teddy hub key:teddyhubhopboss",
+    Callback = function()
+ repeat task.wait() until game:IsLoaded() and game:GetService("Players") and game.Players.LocalPlayer and game.Players.LocalPlayer:FindFirstChild("PlayerGui") loadstring(game:HttpGet("https://raw.githubusercontent.com/Teddyseetink/Haidepzai/refs/heads/main/TEDDYHUB-FREEMIUM"))()
+  end
+  })
+ 
+          AddButton(Tab4o, {
+     Name = "Teddy tự động gạt cần  key: teddyhubautopulllever hoặc teddythamnhung",
+    Callback = function()
+ repeat task.wait() until game:IsLoaded() and game:GetService("Players") and game.Players.LocalPlayer and game.Players.LocalPlayer:FindFirstChild("PlayerGui")
+loadstring(game:HttpGet("https://raw.githubusercontent.com/Teddyseetink/Haidepzai/refs/heads/main/TEDDYHUB-AUTOPULLLever"))()
+  end
+  })      
